@@ -1,0 +1,74 @@
+body {
+  width: 100vw;
+  background-color: #ffffff;
+  font-family: Arial, sans-serif;
+  color: #000000;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #ffffff;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #000080; 
+  border-radius: 5px; 
+}
+
+.text-primary {
+  color: #000080 !important;
+}
+
+.bg-primary {
+  background-color: #000080 !important;
+}
+
+.btn-primary {
+  background-color: #000080 !important;
+  border-color: #000080 !important;
+}
+
+.shadow {
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  transition: box-shadow 0.3s ease;
+}
+
+.form-control:focus {
+  position: relative !important;
+  color: #000000 !important;
+  background-color: none !important;
+  border-color: #000080;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0, 0, 128, 0.5) !important;
+}
+
+/* Laptop */
+@media only screen and (max-width: 1024px) {
+  body {
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+/* Tablet */
+@media only screen and (max-width: 786px) {
+  body {
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+/* Mobile */
+@media only screen and (max-width: 480px) {
+  body {
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+  }
+}

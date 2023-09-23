@@ -1,0 +1,576 @@
+/* Navbar */
+.navbar-brand {
+  font-size: 1.5625rem;
+  font-weight: bolder;
+}
+
+#home .login_btn {
+  background-color: #000080;
+  border-radius: 0.75rem;
+  padding: 0.625rem 1.25rem !important;
+  border-bottom: none !important;
+  transition: 0.5s ease;
+}
+
+#home .login_btn:hover {
+  border-radius: 3.125rem;
+}
+
+#home .nav-link {
+  font-size: 1.25rem;
+  font-weight: bolder;
+  color: #000080;
+  padding: 0.625rem 1.25rem !important;
+  border-bottom: 2px solid #ffffff;
+  transition: 0.5s ease;
+}
+
+#home .nav-link:hover {
+  border-bottom: 2px solid #000080;
+}
+
+.logo {
+  width: 4.375rem;
+  height: 4.375rem;
+  margin-right: 0.625rem; 
+}
+
+.icon {
+  width: 1.875rem;
+  height: 1.875rem;
+  margin-right: 0.625rem;
+}
+
+/* Home */
+#intro,
+#about,
+#room,
+#services,
+#comment {
+  position: relative;
+}
+
+#intro .container {
+  width: 100vw;
+  height: 37.5rem;
+  position: relative;
+}
+
+#intro img {
+  width: 100vw;
+  height: 37.5rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+}
+
+#intro h1 {
+  position: relative;
+  display: flex;
+  padding-top: 12.5rem;
+  font-size: 3.75rem;
+  font-weight: 43.75rem;
+  -webkit-text-stroke: 0.1vw #000080;
+}
+
+#about .container {
+  width: 100vw;
+  height: fit-content;
+  margin-top: 3.125rem;
+}
+
+.stats {
+  display: flex;
+}
+
+#about h1,
+#room h1,
+#services h1,
+#comment h1,
+#hotel-room h1 {
+  font-size: 2.5rem;
+  font-weight: 43.75rem;
+  color: #000080;
+}
+
+#about .card {
+  cursor: pointer;
+  border-radius: 3.125rem !important; 
+  transition: 1s ease;
+}
+
+#about .card:hover {
+  box-shadow: 0 0.003125rem 1rem rgba(0, 0, 128) !important; 
+  cursor: pointer;
+}
+
+#mobile_room,
+#mobile_services {
+  display: none;
+}
+
+#room .container {
+  width: 100vw;
+  height: fit-content;
+  margin-top: 3.125rem; 
+  padding: 0;
+}
+
+#room img {
+  width: 28.125rem; 
+  height: 18.75rem; 
+}
+
+#room p {
+  font-size: 1.25rem; 
+}
+
+#services .container {
+  width: 100vw;
+  height: fit-content;
+  margin-top: 3.125rem; 
+}
+
+#services .card {
+  cursor: pointer;
+  width: 21.25rem; 
+}
+
+.card-hide {
+  display: none;
+}
+
+.card-show {
+  display: block;
+}
+
+#services .carousel-indicators {
+  position: relative;
+}
+
+#services .carousel-indicators button {
+  width: 0.625rem;
+  height: 0.625rem;
+  border: 0.0625rem solid #000080; 
+  border-radius: 6.25rem;
+}
+
+#services .carousel-indicators .active {
+  background-color: rgb(0, 0, 128);
+}
+
+#services img {
+  width: 26.5vw;
+  height: 40vh;
+}
+
+#comment .container {
+  margin-top: 3.125rem;
+}
+
+#comment img {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+#comment .rating {
+  direction: rtl;
+  unicode-bidi: bidi-override;
+  text-align: center;
+  color: #000080;
+}
+
+#comment .rating:before {
+  content: "\2605";
+}
+
+.quote-alt img {
+  transform: rotate(180deg);
+}
+
+#footer {
+  margin-top: 3.125rem;
+}
+
+#footer p {
+  text-align: justify;
+}
+
+#footer li img {
+  width: 1.5625rem;
+  height: 1.5625rem;
+  margin-top: 0.125rem;
+}
+
+#footer span {
+  margin-left: 1rem;
+  transition: 1s ease;
+}
+
+#footer span:hover {
+  margin-left: 0.5rem;
+}
+
+#account .container {
+  margin-top: 3.125rem;
+}
+
+#account img {
+  width: 10rem;
+  height: 10rem;
+}
+
+#account form img {
+  width: 1rem;
+  height: 1rem;
+}
+
+.register {
+  height: 400px;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.form-style {
+  width: 32rem;
+  height: 31rem;
+  margin-top: -3rem;
+  margin-left: 1rem;
+  display: flex;
+  position: absolute;
+  background-color: #ffffff;
+  transition: 1s ease;
+}
+
+.form_btn {
+  color: #000000;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#mobile_account {
+  display: none;
+}
+
+#hotel-room .container {
+  width: 100vw;
+  margin-top: 3.125rem;
+
+}
+
+#sidebar {
+  width: 5vw;
+  height: 100vh;
+  position: fixed;
+  background: rgb(0, 0, 128);
+  transition: 1s ease;
+}
+
+#sidebar i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+#sidebar .fa-grid-lines {
+  transition: 1s ease;
+}
+
+#image {
+  width: 40px;
+  height: 40px;
+}
+
+#sidebar h5 {
+  display: none;
+  color: #ffffff;
+}
+
+#sidebar li {
+  padding: 1rem;
+  margin-bottom: 1rem;
+  list-style: none;
+}
+
+#sidebar .active {
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+  animation: glow-animation 2s infinite ease;
+}
+
+.link {
+  display: none;
+  font-size: 1rem;
+  margin-left: 1rem;
+  color: #ffffff;
+}
+
+@keyframes glow-animation {
+  0% {
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+  }
+  50% {
+    text-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+  }
+  100% {
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+  }
+}
+
+.logout {
+  margin-top: 9rem;
+}
+
+#content,
+#profile,
+#booking,
+#admin {
+  width: 95vw;
+  height: 100vh;
+  margin-left: 5vw;
+  transition: 1s ease;
+}
+
+#content h4,
+#profile h4,
+#booking h4,
+#admin h4 {
+  color: #000080;
+  font-weight: bold;
+}
+
+.rating {
+  direction: rtl;
+  unicode-bidi: bidi-override;
+  text-align: center;
+  color: #d3d3d3;
+}
+
+.rating input {
+  display: none;
+}
+
+.rating label:before {
+  content: "\2605";
+}
+
+.rating input:checked ~ label {
+  color: #000080;
+}
+
+.rating label:hover,
+.rating label:hover ~ label {
+  color: #000080;
+}
+
+#profile img {
+  width: 17vw;
+  height: 24vh;
+}
+
+.modal-footer {
+  justify-content: center;
+}
+
+#admin .card {
+  width: 30vw;
+  height: fit-content;
+  background: none;
+}
+
+#admin .card-body, #admin .card-title, #admin .card-text {
+  background: none;
+}
+
+#admin h1 {
+  display: inline-block;
+  color: #000080;
+  transform: translateY(100%);
+  opacity: 0;
+  animation: countAnimation 2s ease-in-out forwards;
+}
+
+@keyframes countAnimation {
+  0% {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Tablet */
+@media only screen and (max-width: 48rem) {
+  /* 768px converted to rem */
+  .navbar-brand {
+    display: flex;
+  }
+
+  .navbar-brand div {
+    margin-right: 0.3125rem; 
+  }
+
+  #intro .container {
+    height: 28.125rem; 
+  }
+
+  #intro img {
+    height: 28.125rem; 
+  }
+
+  #account .container {
+    margin-top: 3.125rem;
+  }
+
+  #account img {
+    width: 10rem;
+    height: 10rem;
+  }
+
+  #account form img {
+    width: 1rem;
+    height: 1rem;
+  }
+
+  .register {
+    height: 400px;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
+
+  .form-style {
+    width: 22rem;
+    height: 31rem;
+    margin-top: -3rem;
+    margin-left: 0.3rem;
+    display: flex;
+    position: absolute;
+    background-color: #ffffff;
+    transition: 1s ease;
+  }
+}
+
+/* Mobile */
+@media only screen and (max-width: 30rem) {
+  /* 480px converted to rem */
+  #home {
+    display: none;
+  }
+
+  #intro .container {
+    height: 18.75rem;
+    padding: 0;
+  }
+
+  #intro img {
+    height: 18.75rem;
+  }
+
+  #intro h1 {
+    padding-top: 6.25rem;
+    margin-left: 0.9375rem;
+    font-size: 2.5rem;
+    font-weight: 21.875rem;
+    -webkit-text-stroke: 0.00625rem #000080;
+  }
+
+  #about h1,
+  #mobile_room h1,
+  #services h1,
+  #comment h1 {
+    font-size: 1.875rem;
+    font-weight: 21.875rem;
+  }
+
+  .stats {
+    display: block;
+  }
+
+  #room,
+  #services {
+    display: none;
+  }
+
+  #mobile_room,
+  #mobile_services {
+    display: block;
+    margin-top: 3.125rem;
+  }
+
+  #mobile_room img {
+    width: 28.125rem;
+    height: 18.75rem;
+  }
+
+  #mobile_room p {
+    font-size: 1.25rem;
+  }
+
+  #mobile_room .carousel-caption {
+    display: none;
+    transition: 5s ease;
+  }
+
+  #mobile_room .carousel:hover .carousel-caption {
+    display: block;
+    background-color: #000000;
+    opacity: 0.5;
+  }
+
+  #mobile_services .carousel-indicators {
+    position: relative;
+  }
+
+  #mobile_services .carousel-indicators button {
+    width: 0.625rem;
+    height: 0.625rem;
+    border: 0.0625rem solid #000080;
+    border-radius: 6.25rem;
+  }
+
+  #mobile_services .carousel-indicators .active {
+    background-color: #000080;
+  }
+
+  #comment img {
+    width: 1.875rem;
+    height: 1.875rem;
+  }
+
+  .links,
+  .list-unstyled,
+  #footer form {
+    margin-bottom: 1.25rem;
+  }
+
+  #account {
+    display: none;
+  }
+
+  #mobile_account {
+    display: block;
+  }
+
+  #mobile_account .container {
+    width: 100vw;
+    height: 100vw;
+    margin: auto;
+    padding: 2rem;
+    transition: 2s ease;
+  }
+
+  #mobile_account .fa-plus,
+  #mobile_account .fa-arrow-right {
+    font-size: 2rem;
+    margin-right: -2.5rem;
+    cursor: pointer;
+  }
+
+  #footer {
+    display: none;
+  }
+}
